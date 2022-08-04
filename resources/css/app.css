@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.t-name{
+    @apply  font-bold bg-blue-900 text-white;
+}
+.t-form{
+    @apply form-input
+}
+.t-input{
+    @apply border-2 rounded-2xl
+}
+.color{
+    @apply bg-blue-600 text-amber-100 font-bold text-center mb-6
+}
+.ex{
+    @apply justify-center space-x-2 flex
+}
+.rect{
+    width: 100px;
+    height: 100px;
+    text-shadow: 2px 2px 2px #000;
+
+    @apply text-white flex justify-center animate-spin-slow items-center opacity-75
+}
+.clr{
+    @apply w-40 h-10 mt-3
+}
+.btn{
+    @apply border-2 border-emerald-900 rounded-md bg-emerald-500 font-mono px-6 mt-3
+}
